@@ -54,6 +54,7 @@ header {
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 body > * {
@@ -111,6 +112,7 @@ nav a, nav span {
 
 main {
   display: flex;
+  flex-wrap: wrap;
 }
 
 article, section {
@@ -135,4 +137,5 @@ aside img {
 
 footer {
   margin-top: 10px;
+  width: 100%
 }
