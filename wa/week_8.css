@@ -1,0 +1,46 @@
+p {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border: 5px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 15px;
+}
+
+.Box1 {
+    height: 100px;
+    width: 200px;
+    background-color: purple;
+    border: 5px dashed orange;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    margin: 15px;
+    padding: 15px;
+}
+
+#Box2 {
+    height: 100px;
+    width: 200px;
+    background-color: forestgreen;
+    border: 5px dotted brown;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    margin: 15px;
+    padding: 15px;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: gold;
+}
+
+.nav-item {
+    width: 50 px;
+    height: 25px;
+    background-color: beige;
+    border: 5vh solid black;
+    text-decoration: none;
+    
+}
