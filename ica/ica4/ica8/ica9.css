@@ -23,6 +23,7 @@ nav ul {
 }
 
 ul {
+  display: flex;
   max-width: 750px;
   list-style: none;
   padding: 0;
@@ -30,6 +31,7 @@ ul {
 }
 
 li {
+  flex: 2;
   background-color: #4d7298;
   border: 2px solid #77a6b6;
   border-radius: 0.5em;
