@@ -1,0 +1,106 @@
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h3 {
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header {    
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main {
+    background: #242221;
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    min-height: 500px;
+}
+
+
+.navBar {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: lightgray;
+    display: flex;
+    flex-wrap: none;
+    flex-basis: 30%;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    margin: 10px;
+    margin-right: 2px;
+    font-size: 25px;
+    width: 200px;
+
+    
+} 
+
+.contentContainer {
+    flex-basis: 65%;
+    background: lightgray;
+    margin: 10px;
+    margin-left: 2px;
+    padding: 20px;
+}
+
+.headshot {
+    border: 3px solid black;
+    border-radius: 12px%;
+}
+
+.resume {
+    border: 3px solid black;
+    border-radius: 12px%;
+}
+
+.resumeButton {
+    background-color: black;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.resumeButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+footer {
+   color: white;
+}
