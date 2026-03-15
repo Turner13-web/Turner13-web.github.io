@@ -35,7 +35,7 @@ header {
 .main {
     background: #242221;
     display: flex;
-    flex-wrap: none;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: stretch;
     padding: 5px;
@@ -48,8 +48,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 30%;
-    justify-content: inline-block;
-    align-items: stretch;
+    justify-content: center;
+    align-items: flex-start;
     text-align: center;
     color: white;
     margin: 10px;
@@ -104,6 +104,24 @@ header {
     color: #377887;
 }
 
+.projectButton {
+    background-color: #377887;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projectButton:hover {
+    background-color: white;
+    color: #377887;
+}
+
 .navMaterial {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -120,12 +138,12 @@ header {
 
 .headshot {
     border: 3px solid black;
-    border-radius: 12px%;
+    border-radius: 12px;
 }
 
 .resume {
     border: 3px solid black;
-    border-radius: 12px%;
+    border-radius: 12px;
 }
 
 
