@@ -43,14 +43,10 @@ header {
     min-height: 500px;
 }
 
-
-.navBar {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.leftColumn {
     background: lightgray;
     display: flex;
-    flex-wrap: none;
+    flex-wrap: wrap;
     flex-basis: 30%;
     justify-content: inline-block;
     align-items: stretch;
@@ -60,30 +56,58 @@ header {
     margin-right: 2px;
     font-size: 25px;
     width: 200px;
+}
+.navBar {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px 10px 30px;
+    flex-basis: 100%;
+}
 
+.navBar ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.navBar ul li {
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+.info {
+    flex-basis: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.headshot {
+    max-width: 60%
+}
+
+.resumeButton {
+    background-color: #377887;
+    color: white;
+    border: none;
+    display: block;
+    padding: 12px 25px;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resumeButton:hover {
+    background-color: white;
+    color: #377887;
 }
 
 .navMaterial {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-ul {
-    list-style: none;   
-    padding: 0;   
-    margin: 0;
-}
-
-ul li {
-    margin: 5px 0;
-    padding: 0;
-}
-
-ul li a {
-    display: inline-block;
-    padding: 5px;
-}
-
 
 
 .contentContainer {
@@ -104,27 +128,9 @@ ul li a {
     border-radius: 12px%;
 }
 
-.resumeButton {
-    background-color: #377887;
-    color: white;
-    border: none;
-    display: inline-block;
-    padding: 12px 25px;
-    font-size: 16px;
-    margin: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.resumeButton:hover {
-    background-color: white;
-    color: #377887;
-}
-
 
 
 footer {
    color: white;
 }
+
