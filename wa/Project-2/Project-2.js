@@ -95,19 +95,19 @@ function update() {
 }
 
 function switchDirection(e) {
-    if (e.key == "ArrowUp" && velY != 1) {
+    if (e.key == "w" && velY != 1) {
         velX = 0;
         velY = -1;
     } 
-    else if (e.key == "ArrowDown" && velY != -1) {
+    else if (e.key == "s" && velY != -1) {
         velX = 0;
         velY = 1;
     } 
-    else if (e.key == "ArrowLeft" && velX != 1) {
+    else if (e.key == "a" && velX != 1) {
         velX = -1;
         velY = 0;
     } 
-    else if (e.key == "ArrowRight" && velX != -1) {
+    else if (e.key == "d" && velX != -1) {
         velX = 1;
         velY = 0;
     }
