@@ -59,7 +59,12 @@ function update() {
     for (let i = 0; i < apples.length; i++) {
         if (snakeXAxis == apples[i].x && snakeYAxis == apples[i].y) {
             volume += apples[i].value;
-            snakeBody.push([0, 0]);
+            // snakeBody.push([0, 0]);
+
+            let tail = snakeBody.length > 0
+                ? [...snakeBody[snakeBody.length - 1]]
+                : [snakeXAxis - velX * blockSize, snakeYAxis - velY * blockSize];
+            snakeBody.push(tail);
 
             if (volume < 0) {
                 volume = 0;
